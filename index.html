@@ -1,0 +1,75 @@
+<html>
+
+<!-- Mirrored from x20xx.com/re.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Nov 2022 06:28:34 GMT -->
+<head>
+<!-- 4-2013 -->
+
+<title>: RE</title>
+
+
+
+<script type="text/javascript" language="javascript"
+src="js/jquery.js"></script>
+ <script type="text/javascript">                                         
+$(document).ready(function() {
+  
+       var value = $(document).height();
+       var $repeatDiv = jQuery("#repeatDiv");
+    
+       for(var i = 0; i < value; i++) {
+           $repeatDiv.after($repeatDiv.clone().attr("id", "repeatDiv" + new Date().getTime()));
+       }
+   
+ });                    
+ </script>  
+   <style type="text/css">
+  html,body { 
+	 background-color: #000; 
+margin:0; padding:0; border:0; 
+	 font-family: Courier New, Lucida Console, monospace;
+;}
+	
+	div.b {
+    height: 1px;
+    background-color: black;
+    color: #fff;
+}
+
+div.b:hover {
+    transition: height 1s;
+    -moz-transition: height 1s; 
+    -webkit-transition: height 1s;	
+    -o-transition: height 1s; 
+	-ms-transition: height 1s;  
+    height: 20px;
+    background-color: black;
+}
+
+	div.a {
+    height: 1px;
+    background-color: white;
+     color: #000;
+}
+
+div.a:hover {
+    transition: height 1s;
+    -moz-transition: height 1s; 
+    -webkit-transition: height 1s;	
+    -o-transition: height 1s; 
+	-ms-transition: height 1s;  
+   
+    height: 20px;
+    background-color: white;
+}
+
+   </style>
+</head>
+<body>
+
+    <div id="repeatDiv"><div class="b">re:</div>
+<div class="a">RE:</div></div>
+
+</body>
+
+<!-- Mirrored from x20xx.com/re.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Nov 2022 06:28:34 GMT -->
+</html>
